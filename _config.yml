@@ -177,8 +177,11 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  # Website: https://rayrayli.github.io/ || fab fa-sistrix
+  Website: https://rayrayli.github.io/ || fa  fa-globe
   GitHub: https://github.com/rayrayli || fab fa-github
+  Instagram: https://instagram.com/eric.rainman || fab fa-instagram
+  LinkedIn: https://www.linkedin.com/in/li-rui-a97379142/ || fab fa-linkedin
+  RSS: /atom.xml || fa fa-rss
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -186,9 +189,7 @@ social:
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
-  Instagram: https://instagram.com/eric.rainman || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
-  
 
 social_icons:
   enable: true
@@ -278,8 +279,8 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  RSS: /atom.xml || fa fa-rss
+  # WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  # RSS: /blog/atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
